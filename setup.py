@@ -15,7 +15,8 @@ requirements = [
     'numpy',
     'pandas',
     'PyYAML',
-    # TODO: add 'dedupe'!
+    'dedupe',
+    'dedupe-variable-name',
 ]
 
 test_requirements = [
