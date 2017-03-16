@@ -9,11 +9,9 @@ env:
 - TOXENV=py27
 - TOXENV=flake8
 
-install:
-- pip install -U tox
-- pip install numpy
+install: pip install -U tox
 
-script: tox -e ${TOXENV}
+script: tox -v -e ${TOXENV}
 
 deploy:
   true:
