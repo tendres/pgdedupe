@@ -2,3 +2,5 @@ numpy
 pandas
 psycopg2
 dedupe
+PyYAML
+click
