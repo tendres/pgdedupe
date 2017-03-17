@@ -11,9 +11,7 @@ env:
 
 install: pip install -U tox
 
-script:
-- pip install numpy
-- tox -v -e ${TOXENV}
+script: tox -e ${TOXENV}
 
 deploy:
   true:
